@@ -1,0 +1,5 @@
+;----- extra axioms --------------------
+(B (name boxer0)(=>(COMPONENT_OF e2 x z :0.9)(^(subset_of e0 x *y)(COMPONENT_OF e1 *y z))))
+(B (name boxer1)(=>(COMPONENTS_OF e2 x z :0.9)(^(subset_of e0 x *y)(COMPONENTS_OF e1 *y z))))
+(B (name boxer2)(=>(MEMBER e2 x z :0.9)(^(subset_of e0 x *y)(MEMBER e1 *y z))))
+(B (name boxer3)(=>(SUBSET e2 x z :0.9)(^(subset_of e0 x *y)(SUBSET e1 *y z))))
